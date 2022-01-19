@@ -2,7 +2,7 @@
 body
 {
   
-  margin: 300px;
+  
   font-family: 'Roboto', sans-serif;
   color: #F0B666 ;
   background-color: #1f4590;
@@ -18,3 +18,7 @@ figcaption {
 }
 
 
+.links {
+  margin: auto;
+  width: 18%;
+}
