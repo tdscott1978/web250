@@ -32,11 +32,22 @@ body {
  }
 
  .main {
-     background-color: #505355;
-     padding: 20px;
-     width: 80%;
-     margin: auto;
+      background-color: #505355;
+      padding: 20px;
+      width: 80%; 
     
+ }
+
+ ul.main {
+   padding: 10px;
+ }
+
+ .image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
  }
 
  .colors {
@@ -114,3 +125,37 @@ footer {
     color: #957F59;
     text-align: center;
 }
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+/*nav*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
